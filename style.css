@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container
+{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+
+
+.btn
+{
+    
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 7px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.results
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.results span
+{
+    width: 350px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+
+.player
+{
+    background: blue;
+    color:#fff;
+}
+
+.computer
+{
+    background: coral;
+    color:#fff;
+}
+
+.draw
+{
+    background: red;
+    color:#fff;
+}
+
+
+
+.icons
+{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.icons img
+{
+    cursor: pointer;
+    margin: 20px 40px;
+    transition: 0.5s;
+    padding: 20px;
+    border: 1px dashed transparent;
+}
+
+
+.icons img:hover
+{
+    border: 1px dashed #000;
+}
+
+
+
+.popup
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #fff;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.226);
+}
+
+.popub-view
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.486);
+    display: none;
+}
+
+.popup i
+{
+    font-size: 10em;
+}
+
+.total span
+{
+    font-size: 1.2em;
+    margin-right: 20px;
+    border: 1px dashed #000;
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+
+
+
+.winn
+{
+    color: green;
+    font-size: 3em;
+}
+
+.lose
+{
+    font-size: 3em;
+    color: red;
+}
+
+.youDraw
+{
+    color: rgba(117, 104, 104, 0.959);
+    font-size: 3em;
+}
+
+
+.timeGame
+{
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+}
